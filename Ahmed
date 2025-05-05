@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      padding: 20px;
+    }
+    .column {
+      flex: 1;
+      padding: 10px;
+      border-right: 1px solid #000;
+    }
+    .column:last-child {
+      border-right: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="column">
+      <h2>Name</h2>
+      <p>احمد محمد فتحي</p>
+    </div>
+    <div class="column">
+      <h2>Code</h2>
+      <p>20233314</p>
+    </div>
+  </div>
+</body>
+</html>
